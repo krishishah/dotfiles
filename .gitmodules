@@ -13,3 +13,6 @@
 [submodule ".vim/pack/krishi/start/gruvbox"]
 	path = .vim/pack/krishi/start/gruvbox
 	url = https://github.com/morhetz/gruvbox
+[submodule ".vim/pack/krishi/start/vim-go"]
+	path = .vim/pack/krishi/start/vim-go
+	url = https://github.com/fatih/vim-go.git
