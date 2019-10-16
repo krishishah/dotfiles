@@ -19,3 +19,6 @@
 [submodule ".vim/pack/krishi/start/vim-fugitive"]
 	path = .vim/pack/krishi/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule ".vim/pack/krishi/start/vim-airline-themes"]
+	path = .vim/pack/krishi/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
