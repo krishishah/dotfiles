@@ -20,16 +20,18 @@ set softtabstop=4   " Sets the number of columns for a TAB
 
 set expandtab       " Expand TABs to spaces
 
+autocmd BufRead,BufNewFile *.md setlocal spell " Spellcheck .md files
+set complete+=kspell " Switch on word completion using CTRL-N and CTRL-P in insert mode
+set spelllang=en_gb
 
 " Golang config "
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 let g:go_highlight_types = 1
+" let g:go_auto_type_info = 1
 
-
-" Always set working directory to current file's directory "
-autocmd BufEnter * lcd %:p:h
-
+" Deoplete config "
+let g:deoplete#enable_at_startup = 1
 
 " NERDTree Config "
 let g:NERDTreeNodeDelimiter = "\u00a0"
