@@ -1,0 +1,7 @@
+{
+    "python.jediEnabled": false,
+    "go.goplsPath": "/home/krishi/go/bin/gopls",
+    "go.goplsOptions": {
+        "directoryFilters": ["-src/plz-out"]
+    }
+}

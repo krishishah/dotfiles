@@ -1,0 +1,6 @@
+{
+    "go.goplsPath": "/home/krishi/go/bin/gopls",
+    "go.goplsOptions": {
+        "directoryFilters": ["-plz-out"]
+    }
+}
